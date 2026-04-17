@@ -39,9 +39,9 @@ pnpm build       # production build
 
 ## Question 2 — A piece of code I'm proud of
 
-**Write-up:** [interview-proud-code.md](interview-proud-code.md) — the `SmartItem` base class from the Partal 3D engine (TypeScript + Babylon.js + Valtio + Colyseus), and why its one-handler-per-event lifecycle turned a chaotic plugin surface into something content creators could actually reason about.
+**Write-up:** [interview-proud-code.md](interview-proud-code.md) — the `SmartItem` base class from the Web 3D engine (TypeScript + Babylon.js + Valtio + Colyseus).
 
-**Supporting source samples (extracted from the Partal codebase):**
+**Supporting source samples:**
 
 - [code-samples/partal/smart-items/smart-item.ts](code-samples/partal/smart-items/smart-item.ts) — the base class itself.
 - [code-samples/partal/character-controller/character-controller.ts](code-samples/partal/character-controller/character-controller.ts) — a peer system that shows how `SmartItem` plugs into the rest of the engine.
