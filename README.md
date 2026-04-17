@@ -42,6 +42,7 @@ pnpm build       # production build
 **Write-up:** [interview-proud-code.md](interview-proud-code.md) — the `SmartItem` base class from the Partal 3D engine (TypeScript + Babylon.js + Valtio + Colyseus), and why its one-handler-per-event lifecycle turned a chaotic plugin surface into something content creators could actually reason about.
 
 **Supporting source samples (extracted from the Partal codebase):**
+
 - [code-samples/partal/smart-items/smart-item.ts](code-samples/partal/smart-items/smart-item.ts) — the base class itself.
 - [code-samples/partal/character-controller/character-controller.ts](code-samples/partal/character-controller/character-controller.ts) — a peer system that shows how `SmartItem` plugs into the rest of the engine.
 
@@ -50,8 +51,6 @@ pnpm build       # production build
 ## Question 3 — Processes, tools, methodologies
 
 **Main answer:** [building-vs-evolving-answer.md](building-vs-evolving-answer.md) — same stack, different defaults. Building from scratch optimizes for speed of learning; evolving a live product optimizes for not breaking the customers you already have.
-
-**Prompt I used to draft it:** [interview-prompt-processes.md](interview-prompt-processes.md) — the exact prompt + context-file convention I feed to an LLM when I want a grounded answer instead of a generic one. Included because "how I work with AI tooling" is part of the honest answer to this question.
 
 ---
 
