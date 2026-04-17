@@ -65,6 +65,5 @@ src/
   main.jsx, styles.css
 code-samples/partal/           # Source extracts referenced by Question 2
 interview-proud-code.md        # Question 2 answer
-interview-prompt-processes.md  # Question 3 prompt scaffold
 building-vs-evolving-answer.md # Question 3 answer
 ```
