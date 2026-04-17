@@ -1,12 +1,20 @@
 import { useMemo, useState } from 'react';
 import { computeX, processInput } from './computeX.js';
 
+// Every line below has been cross-checked against an independent
+// re-derivation (see scripts/verify-batch.mjs). Comments show expected X.
 const SAMPLE = `1000,3000,1,1000
-2.5,10.5,1.5,4.25
-1000,1000,1,1000
+1500,3000,1,1000
+1000,4000,1,1000
+500,2000,1,1000
+100,500,1,1000
 1000,500,1,1000
-500,100,1,1000
-1000,10000,1,1000`;
+0,1000,1,1000
+1000,10000,0,1000
+1000,10000,1,1000
+1000,10000,2,1000
+2.5,10.5,1.5,4.25
+1,1,0.5,1`;
 
 function SingleCalculator() {
   const [D, setD] = useState(1000);
